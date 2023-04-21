@@ -6,6 +6,11 @@
 # Put excutable binary with C
 gcc -o hello_world hello_world.c
 
+
+# Put excutable binary with C#.NET
+cd
+dotnet build myapp/myapp.csproj
+
 # Put excutable binary with Node.js
 ## Create blob
 node --experimental-sea-config sea-config.json
@@ -21,10 +26,12 @@ npx postject hello-world NODE_SEA_BLOB sea-prep.blob \
 ## Benchmark
 
 -   gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04)
+-   dotnet 6.0
 -   node v20.0.0
 -   CPU: AMD Athlon 200GE
 
 | Language | Filesize(Byte) | `time` result                                |
 | -------- | -------------- | -------------------------------------------- |
 | C        | 15,968         | 0.00s user 0.00s system 77% cpu 0.002 total  |
+| C#.NET   | 142,840        | 0.05s user 0.02s system 77% cpu 0.090 total  |
 | Node.js  | 95,685,760     | 0.04s user 0.01s system 101% cpu 0.053 total |
