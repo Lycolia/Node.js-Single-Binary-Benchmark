@@ -3,10 +3,10 @@
 ## How to build
 
 ```sh
-# Put excutable binary from C
+# Put excutable binary with C
 gcc -o hello_world hello_world.c
 
-# Put excutable binary from Node.js
+# Put excutable binary with Node.js
 ## Create blob
 node --experimental-sea-config sea-config.json
 ## Create Node.js copy
