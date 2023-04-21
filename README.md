@@ -8,7 +8,6 @@ gcc -o hello_world hello_world.c
 
 
 # Put excutable binary with C#.NET
-cd
 dotnet build myapp/myapp.csproj
 
 # Put excutable binary with Node.js
